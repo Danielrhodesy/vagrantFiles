@@ -2,60 +2,70 @@
   {
     "id": 1,
     "place_name" : "Moa Point",
+    "description": "Get here as the sun's setting for one of the best sunsets Wellington has to offer.",
     "lat": -41.337445,
     "lng": 174.810670
   },
   {
     "id": 2,
     "place_name" : "Wrights Hill Fortress",
+    "description": "Built in the 1940s to protect Wellington from a possible Japanese invasion, Wrights Hill is perfectly positioned for epic 360 degree views over Wellington and out to Makara.",
     "lat": -41.295608,
     "lng": 174.738510
   },
   {
     "id": 3,
     "place_name" : "Fort Balance",
+    "description": "Even though the fort is technically a Category I Historic Place, it's haphazardly used for a bunch of different activities including: street art, parkour, airsoft, fire spinning & urban exploring.",
     "lat": -41.294658,
     "lng": 174.834459
   },
   {
     "id": 4,
     "place_name" : "Massey Memorial Bunkers",
+    "description": "Probably the most hidden of Wellington's bunkers, providing an awesome view over the harbour towards the city. ",
     "lat": -41.285071,
     "lng": 174.825987
   },
   {
-    "id": 5,
+    "id": 5,*
     "place_name" : "Breaker Bay",
+    "description": "On the cliffs of one of the most underrated Wellington beaches - the Breakers Bay bunkers are a great spot to check out.",
     "lat": -41.335911,
     "lng": 174.823917
   },
   {
     "id": 6,
     "place_name" : "Matiu / Somes Island Bunkers",
+    "description": "Matiu has a wealth of Maori and European history",
     "lat": -41.258174,
     "lng": 174.865914
   },
   {
     "id": 7,
     "place_name" : "Brooklyn bunkers",
+    "description": "The Brooklyn bunkers (also known as Polhill Reserve) double as an awesome fireworks watching spot.",
     "lat": -41.304830,
     "lng": 174.751632
   },
   {
     "id": 8,
     "place_name" : "Makara Bunker",
+    "description": "Some of these are now fenced off, however there are a few open to explore.",
     "lat": -41.220058,
     "lng": 174.711400
   },
   {
     "id": 9,
     "place_name" : "Fort Dorset",
+    "description": "In the early 1900s coastal defence needs were being re-examined, and as a result two new batteries were to be constructed, one in Wellington at Point Dorset, and one in Auckland at North Head.",
     "lat": -41.331570,
     "lng": 174.837752
   },
   {
     "id": 10,
     "place_name" : "Sinclair Head WW2 Bunker",
+    "description": "Sinclair Head / Te Rimurapa is a haul-out site for male New Zealand fur seals and a popular tourist attraction.",
     "lat": -41.359233,
     "lng": 174.716211
   }
