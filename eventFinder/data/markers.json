@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "place_name" : "Mount Victoria",
+    "description": "Sceinic look out spot",
+    "lat": -41.296500,
+    "lng": 174.785356
+  },
+  {
+    "id": 2,
+    "place_name" : "Brooklyn Wind Turbine",
+    "description": "Up and close to a Wind Turbine",
+    "lat": -41.311094,
+    "lng": 174.744893
+  },
+  {
+    "id": 3,
+    "place_name" : "Wellington Zoo",
+    "description": "Overpriced meerkat tours",
+    "lat": -41.319543,
+    "lng": 174.784643
+  },
+  {
+    "id": 4,
+    "place_name" : "Island Bay Beach",
+    "description": "Nice beach",
+    "lat": -41.343597,
+    "lng": 174.771912
+  },
+  {
+    "id": 5,
+    "place_name" : "Oriental Bay",
+    "description": "Another Beach",
+    "lat": -41.291185,
+    "lng": 174.793050
+  },
+  {
+    "id": 6,
+    "place_name" : "Bad Grannies",
+    "description": "Nice place to drink",
+    "lat": -41.294711,
+    "lng": 174.775110
+  },
+  {
+    "id": 7,
+    "place_name" : "Lyall Bay",
+    "description": "Nice beach and can surf there sometimes",
+    "lat": -41.328293,
+    "lng": 174.801676
+  },
+  {
+    "id": 8,
+    "place_name" : "Young Shing",
+    "description": "Yum Chinese Food",
+    "lat": -41.295548,
+    "lng": 174.770837
+  },
+  {
+    "id": 9,
+    "place_name" : "Subway",
+    "description": "Subway is Good",
+    "lat": -41.295136,
+    "lng": 174.776394
+  },
+  {
+    "id": 10,
+    "place_name" : "Wellington Pump Track",
+    "description": "Fun thing to do",
+    "lat": -41.299029,
+    "lng": 174.823789
+  }
+]

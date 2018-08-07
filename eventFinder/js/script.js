@@ -1,31 +1,21 @@
 google.maps.event.addDomListener(window, 'load', initmap);
 
-var map, infobox, allMarkers = [];
+var map, infobox, allMarkers = []
 
 function initmap(){
-
   var mapOptions = {
     center :{
       lat: -41.286460,
       lng: 174.776236
     },
-    zoom: 12,
-  };
+    zoom: 12
+  }
 
+  map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
-map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    addAllMarkers();
 
-  addAllMarkers();
-
-  // var marker = new google.maps.Marker({
-  //   position: {
-  //     lat: 59.913869,
-  //     lng: 10.752245
-  //   },
-  //   map: map,
-  // })
-
-};
+}
 
 
 function addAllMarkers(){
@@ -35,19 +25,7 @@ function addAllMarkers(){
     dataType: 'JSON',
     success:function(markers){
       for(var i = 0; i < markers.length; i++) {
-        $('#places').append(
-          "<div class='place' data-id='"+markers[i].id+"'><h3>"+markers[i].place_name+"</h3>"+
-          "<div class='panel'>"+
-          "<p>"+markers[i].description+"</p></div><hr>")
-
-
-
-        var image = {
-          url: 'images/bunker2.png',
-          size: new google.maps.Size(32, 32),
-        }
-
-
+        $('#feed').append("<div class='place' data-id='"+markers[i].id+"'><h2>"+markers[i].place_name+"</h2><div class='panel'><p>"+markers[i].description+"</p></div></div>");
 
         var marker = new google.maps.Marker({
           position: {
@@ -57,20 +35,20 @@ function addAllMarkers(){
           title: markers[i].place_name,
           markerID: markers[i].id,
           map: map,
-          icon: image,
           animation: google.maps.Animation.DROP
+
         });
 
-        markerClickEvent(marker);
+        // markerClickEvent(marker);
         allMarkers.push(marker);
 
       }
     },
     error:function(error){
-      console.log("Error, somthing went wrong, can't get the markers")
-      console.log(error)
+      console.log("Error, somthing went wrong, can't get the markers");
+      console.log(error);
     }
-  });
+  })
 }
 
 
@@ -79,18 +57,11 @@ function markerClickEvent(marker){
     infobox.close();
   }
   infobox = new google.maps.InfoWindow();
-  map.panTo(marker.position);
+  map.panTo(marker.position)
   google.maps.event.addListener(marker, 'click', function(){
     infobox.setContent('<div><strong>'+marker.title+'</strong></div>');
     infobox.open(map, marker)
   });
-}
-
-
-function moveMap(){
-  var latlng = new google.maps.LatLng(-41.2959299, 174.772154);
-  map.panTo(latlng)
-  map.setZoom(12)
 }
 
 $(document).on('click', '.place', function(){
@@ -115,12 +86,3 @@ $(document).on('click', '.place', function(){
         }
     }
 });
-
-
-
-
-
-
-
-
-//END

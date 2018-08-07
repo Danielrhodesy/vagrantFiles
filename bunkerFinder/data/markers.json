@@ -16,7 +16,7 @@
   {
     "id": 3,
     "place_name" : "Fort Balance",
-    "description": "Even though the fort is technically a Category I Historic Place, it's haphazardly used for a bunch of different activities including: street art, parkour, airsoft, fire spinning & urban exploring.",
+    "description": "Even though the fort is technically a Category I Historic Place it's haphazardly used for a bunch of different activities including: street art, parkour, airsoft, fire spinning & urban exploring.",
     "lat": -41.294658,
     "lng": 174.834459
   },
@@ -28,7 +28,7 @@
     "lng": 174.825987
   },
   {
-    "id": 5,*
+    "id": 5,
     "place_name" : "Breaker Bay",
     "description": "On the cliffs of one of the most underrated Wellington beaches - the Breakers Bay bunkers are a great spot to check out.",
     "lat": -41.335911,
